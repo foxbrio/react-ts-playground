@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 import Todo from './components/Todo/Todo';
 
 import './style.css';
@@ -19,10 +20,10 @@ class App extends Component<AppProps, AppState> {
 
   render() {
     return (
-      <React.Fragment>
+      <BrowserRouter>
         <h1>App </h1>
         <Todo></Todo>
-      </React.Fragment>
+      </BrowserRouter>
     );
   }
 }
