@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Todo from './components/Todo/Todo';
+
 import './style.css';
 
 interface AppProps {}
@@ -19,13 +20,9 @@ class App extends Component<AppProps, AppState> {
   render() {
     return (
       <React.Fragment>
-        <div>
-          <Hello name={this.state.name} />
-          <p>Start editing to see some magic happen :)</p>
-        </div>
+        <Todo></Todo>
       </React.Fragment>
     );
   }
 }
-
 render(<App />, document.getElementById('root'));
