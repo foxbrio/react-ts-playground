@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@types/react": "^16.8.2",
-    "@types/react-dom": "^16.8.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "@types/react": "16.14.24",
+    "@types/react-dom": "16.9.14",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-is": "18.0.0",
+    "styled-components": "^5.3.5"
   },
   "scripts": {
     "start": "react-scripts-ts start",
